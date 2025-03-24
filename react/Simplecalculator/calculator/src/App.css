@@ -1,0 +1,102 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the calculator */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Calculator container */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title styling */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Result display */
+.res {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Input field */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+}
+
+/* Button group */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* Ensures buttons stay in one row */
+.button-row:first-child {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Button styling */
+button {
+  flex: 1; /* Make all buttons the same size */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: white;
+  min-width: 80px; /* Ensures buttons are wide enough */
+}
+
+/* Primary action buttons */
+.Add,
+.Subtract,
+.Multiply,
+.Divide {
+  background-color: #1a73e8;
+}
+
+/* Reset buttons */
+.Reset_Input {
+  background-color: #1a73e8;
+}
+
+.Reset_Result {
+  background-color: #d9534f;
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.8;
+}

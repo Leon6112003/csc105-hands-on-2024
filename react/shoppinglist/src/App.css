@@ -1,0 +1,119 @@
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.shopping_container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Input Section */
+.add-item-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input_box {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+.input_box::placeholder {
+  color: #ddd;
+}
+
+.add_btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add_btn:hover {
+  background-color: #218838;
+}
+
+/* List Items */
+.item_list {
+  list-style: none;
+  padding: 0;
+}
+
+.item_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9f5e9;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Item Name */
+.item_name {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+/* Buttons */
+.edit_btn {
+  background-color: #ffc107;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit_btn:hover {
+  background-color: #e0a800;
+}
+
+.remove_btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.remove_btn:hover {
+  background-color: #c82333;
+}
